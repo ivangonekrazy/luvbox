@@ -1,0 +1,19 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+ivan:
+  name: Ivan
+  email: ivan@luvbox.com
+  zodiac_west: Taurus
+  zodiac_chinese: Dog
+
+alana:
+  name: Alana
+  email: alana@luvbox.com
+  zodiac_west: Leo
+  zodiac_chinese: Horse
+
+chico:
+  name: Chico
+  email: chico@luvbox.com
+  zodiac_west: Leo
+  zodiac_chinese: Dog
