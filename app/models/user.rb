@@ -11,7 +11,7 @@ class User < ActiveRecord::Base
   }
   validates :zodiac_chinese, :inclusion => {
     :in => %w{Rat Ox Tiger Rabbit Dragon Snake
-              Horse Goat Moneky Rooster Dog Pig Cat} + [nil],
+              Horse Goat Monkey Rooster Dog Pig} + [nil],
     :message => "Please enter a valid Chinese zodiac sign."
   }
 

@@ -1,0 +1,17 @@
+<h1>Luv#show_luv</h1>
+
+<ol>
+    <% @users.each do |user| %>
+      <li>
+      <%= user.name %>
+      <ol>
+        <% user.luvings.each do |luv| %>
+          <li>
+          sent luv to <%= luv.luved.name %>: <%= luv.comment %>
+          (<%= luv.created_at %>)
+          </li>
+        <% end %>
+      </ol>
+      </li>
+    <% end %>
+</ol>

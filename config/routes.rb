@@ -1,4 +1,8 @@
 Luvbox::Application.routes.draw do
+  get "luv/show_luv"
+
+  get "luv/send_luv"
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
